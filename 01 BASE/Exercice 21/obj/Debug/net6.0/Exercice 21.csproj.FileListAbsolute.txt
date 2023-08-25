@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\bin\Debug\net6.0\Exercice 21.exe
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\bin\Debug\net6.0\Exercice 21.deps.json
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\bin\Debug\net6.0\Exercice 21.runtimeconfig.json
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\bin\Debug\net6.0\Exercice 21.dll
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\bin\Debug\net6.0\Exercice 21.pdb
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\obj\Debug\net6.0\Exercice 21.csproj.AssemblyReference.cache
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\obj\Debug\net6.0\Exercice 21.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\obj\Debug\net6.0\Exercice 21.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\obj\Debug\net6.0\Exercice 21.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\obj\Debug\net6.0\Exercice 21.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\obj\Debug\net6.0\Exercice 21.dll
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\obj\Debug\net6.0\refint\Exercice 21.dll
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\obj\Debug\net6.0\Exercice 21.pdb
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\obj\Debug\net6.0\Exercice 21.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\Exercice 21\obj\Debug\net6.0\ref\Exercice 21.dll

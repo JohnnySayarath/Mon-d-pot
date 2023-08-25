@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "RmRERPtOdPvTTJr9PGezTTETZ4Dih+uM71sskGcTwp8LnwZb1/DJ0J55kZR7wYBKLATRF7wdAoz2SZYtfCE2jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrateur\\Documents\\C#\\M2i\\Git M2i\\Mon dépot\\02 POO\\Demo05Heritage\\Demo05HeritageMasquage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.19\\microsoft.netcore.app.host.win-x64.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}

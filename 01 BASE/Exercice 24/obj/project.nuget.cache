@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tVN+C9wc3cQnXoC0thENLgx6A88p4X/Ci7Br2VMzijRar+BPeehF2pEZ0PVi1B1iwZHBT/vHlEbZ13yN8bEjzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrateur\\Documents\\C#\\Nouveau dossier\\dotnet-m2i-26.06\\01 - Bases\\DemosCSharp\\Exercice 24\\Exercice 24.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.19\\microsoft.netcore.app.host.win-x64.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}

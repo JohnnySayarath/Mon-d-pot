@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\bin\Debug\net6.0\Exercice31.exe
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\bin\Debug\net6.0\Exercice31.deps.json
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\bin\Debug\net6.0\Exercice31.runtimeconfig.json
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\bin\Debug\net6.0\Exercice31.dll
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\bin\Debug\net6.0\Exercice31.pdb
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\obj\Debug\net6.0\Exercice31.csproj.AssemblyReference.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\obj\Debug\net6.0\Exercice31.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\obj\Debug\net6.0\Exercice31.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\obj\Debug\net6.0\Exercice31.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\obj\Debug\net6.0\Exercice31.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\obj\Debug\net6.0\Exercice31.dll
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\obj\Debug\net6.0\refint\Exercice31.dll
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\obj\Debug\net6.0\Exercice31.pdb
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\obj\Debug\net6.0\Exercice31.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\Exercice31\obj\Debug\net6.0\ref\Exercice31.dll

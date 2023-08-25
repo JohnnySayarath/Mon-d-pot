@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\bin\Debug\net6.0\Fonction Exercice5ADN.exe
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\bin\Debug\net6.0\Fonction Exercice5ADN.deps.json
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\bin\Debug\net6.0\Fonction Exercice5ADN.runtimeconfig.json
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\bin\Debug\net6.0\Fonction Exercice5ADN.dll
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\bin\Debug\net6.0\Fonction Exercice5ADN.pdb
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\obj\Debug\net6.0\Fonction Exercice5ADN.csproj.AssemblyReference.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\obj\Debug\net6.0\Fonction Exercice5ADN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\obj\Debug\net6.0\Fonction Exercice5ADN.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\obj\Debug\net6.0\Fonction Exercice5ADN.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\obj\Debug\net6.0\Fonction Exercice5ADN.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\obj\Debug\net6.0\Fonction Exercice5ADN.dll
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\obj\Debug\net6.0\refint\Fonction Exercice5ADN.dll
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\obj\Debug\net6.0\Fonction Exercice5ADN.pdb
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\obj\Debug\net6.0\Fonction Exercice5ADN.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\Fonction Exercice 5 ADN\obj\Debug\net6.0\ref\Fonction Exercice5ADN.dll

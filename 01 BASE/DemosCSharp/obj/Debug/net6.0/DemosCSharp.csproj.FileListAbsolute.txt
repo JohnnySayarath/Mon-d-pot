@@ -1,0 +1,5 @@
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\DemosCSharp\obj\Debug\net6.0\DemosCSharp.csproj.AssemblyReference.cache
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\DemosCSharp\obj\Debug\net6.0\DemosCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\DemosCSharp\obj\Debug\net6.0\DemosCSharp.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\DemosCSharp\obj\Debug\net6.0\DemosCSharp.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\C#\Nouveau dossier\dotnet-m2i-26.06\01 - Bases\DemosCSharp\DemosCSharp\obj\Debug\net6.0\DemosCSharp.csproj.CoreCompileInputs.cache

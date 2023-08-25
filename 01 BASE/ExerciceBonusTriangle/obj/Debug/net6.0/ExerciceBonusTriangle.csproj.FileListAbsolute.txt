@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\bin\Debug\net6.0\ExerciceBonusTriangle.exe
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\bin\Debug\net6.0\ExerciceBonusTriangle.deps.json
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\bin\Debug\net6.0\ExerciceBonusTriangle.runtimeconfig.json
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\bin\Debug\net6.0\ExerciceBonusTriangle.dll
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\bin\Debug\net6.0\ExerciceBonusTriangle.pdb
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\obj\Debug\net6.0\ExerciceBonusTriangle.csproj.AssemblyReference.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\obj\Debug\net6.0\ExerciceBonusTriangle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\obj\Debug\net6.0\ExerciceBonusTriangle.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\obj\Debug\net6.0\ExerciceBonusTriangle.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\obj\Debug\net6.0\ExerciceBonusTriangle.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\obj\Debug\net6.0\ExerciceBonusTriangle.dll
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\obj\Debug\net6.0\refint\ExerciceBonusTriangle.dll
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\obj\Debug\net6.0\ExerciceBonusTriangle.pdb
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\obj\Debug\net6.0\ExerciceBonusTriangle.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\C#\Mon dépot\ExerciceBonusTriangle\obj\Debug\net6.0\ref\ExerciceBonusTriangle.dll
