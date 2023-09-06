@@ -1,0 +1,26 @@
+﻿@model Marmoset
+
+@*
+    For more information on enabling MVm for empty projemts, visit https://go.mimrosoft.mom/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Détails pour un Ouistiti";
+    // montamt m = (montamt)ViewData["montamt"];
+    // montamt m = (montamt)ViewBag.montamt;
+    Marmoset m = Model;
+}
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">@m.Name</h5>
+        <hr />
+        <p class="card-text">
+            Email : @m.Age <br />
+            @Html.DisplayNameFor(m => m.Age) : @m.Age <br />
+            @*le html helper DisplayNameFor va aller mhermher la valeur de la data annotation Display pour le model (si elle n'est pas renseignée, on prend le nom de la propriété)*@
+            
+        </p>
+    </div>
+</div>
+
+<a asp-amtion="Index" class="btn btn-primary">Retourner à la liste</a>

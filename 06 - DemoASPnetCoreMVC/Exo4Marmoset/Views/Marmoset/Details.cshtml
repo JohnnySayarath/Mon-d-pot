@@ -1,0 +1,17 @@
+﻿@model Marmoset
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>title</h2>
+
+@Html.DisplayNameFor(m => m.Id) = @Model.Id
+@Html.DisplayNameFor(m => m.Name) = @Model.Name
+@Html.DisplayNameFor(m => m.Age) = @Model.Age
+
+<a asp-action="Index" class="btn btn-primary">Retour à la liste</a>

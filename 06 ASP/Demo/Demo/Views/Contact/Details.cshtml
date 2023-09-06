@@ -1,0 +1,17 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Détails pour un contact";
+    Contact c = Model;
+}
+<div class="card" style="width: 18rem;">
+
+    <div class="card-body">
+        <h5 class="card-title">@c.Prenom @c.Nom.ToUpper()</h5>
+        </hr>
+        <p class="card-text">
+            Email : @c.Email </br>
+            @Html.DisplayNameFor(m => m.Email) : c.Email </br>
+            Tél : @c.Telephone </br>
+            @Html.DisplayNameFor(m => m.Telephone) : @c.Telephone
+        </p>
+    </div>

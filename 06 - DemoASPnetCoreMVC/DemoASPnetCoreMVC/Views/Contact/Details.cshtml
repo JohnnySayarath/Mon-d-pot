@@ -1,0 +1,26 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Détails pour un Contact";
+    // Contact c = (Contact)ViewData["contact"];
+    // Contact c = (Contact)ViewBag.Contact;
+    Contact c = Model;
+}
+
+@*Je suis la page pour afficher un contact en détail... *@
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">@c.FirstName @c.LastName.ToUpper()</h5>
+        <hr />
+        <p class="card-text">
+            Email : @c.Email <br />
+            @Html.DisplayNameFor(m => m.Email) : @c.Email <br />
+            @*le html helper DisplayNameFor va aller chercher la valeur de la data annotation Display pour le model (si elle n'est pas renseignée, on prend le nom de la propriété)*@
+            Tél : @c.Phone <br />
+            @Html.DisplayNameFor(m => m.Phone) : @c.Phone 
+        </p>
+    </div>
+</div>
+
+<a asp-action="Index" class="btn btn-primary">Retourner à la liste</a>

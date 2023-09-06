@@ -1,0 +1,44 @@
+﻿@model List<Contact>
+@* 
+    l'annotation model remplace le type de la propriété Model (dynamic)
+    elle permet de "lier" une vue à un type en particulier
+*@
+@{
+    ViewData["Title"] = "Accueil Contacts";
+}
+
+@* Je suis la page pour lister les Contacts... *@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            @* 
+            <th scope="col">Prénom</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Email</th>
+            <th scope="col">Téléphone</th> *@
+            <th scope="col">@Html.DisplayNameForInnerType((Contact c) => c.FirstName)</th>
+            <th scope="col">@Html.DisplayNameForInnerType((Contact c) => c.LastName)</th>
+            <th scope="col">@Html.DisplayNameForInnerType((Contact c) => c.Email)</th>
+            <th scope="col">@Html.DisplayNameForInnerType((Contact c) => c.Phone)</th>
+            @*Quand on est sur un model de type collection, il faudra utiliser cette méthode pour utiliser l'annotation Display de notre Contact*@
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @* @foreach (Contact c in (List<Contact>)ViewData["contacts"]) *@
+        @* @foreach (Contact c in (List<Contact>)ViewBag.Contacts) *@
+        @foreach (Contact c in Model)
+        {
+            <tr>
+                <th scope="row">@c.Id</th>
+                <td>@c.FirstName</td>
+                <td>@c.LastName</td>
+                <td>@c.Email</td>
+                <td>@c.Phone</td>
+                <td><a asp-action="Details" asp-route-id="@c.Id" class="btn btn-primary">Détails</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

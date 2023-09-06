@@ -1,0 +1,31 @@
+﻿@model List<Contact>
+@* L'annotation model remplace le type d ela prorpiété Model (dynamique)
+    elle permet de "lier" une vue à un type en particulier 
+*@
+@{
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Prénom</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Email</th>
+            <th scope="col">Telephone</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Contact c in Model)
+        {
+            
+        <tr>
+            <th scope="row">@c.Id</th>
+            <td>@c.Prenom</td>
+            <td>@c.Nom</td>
+            <td>@c.Email</td>
+            <td>@c.Telephone</td>
+        </tr>
+        }
+    </tbody>
+</table>

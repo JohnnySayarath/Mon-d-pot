@@ -1,0 +1,99 @@
+﻿@* 
+    @model permet de "lier" la page razor avec un type de model
+    le model qui lui sera envoyé depuis un constructeur sera de ce type
+    (de base le type de Model est dynamic)
+*@
+@model List<string>
+@* @model Marmoset  *@
+
+@{
+    ViewData["Title"] = "Page d'accueil";
+    // Layout = "_CustomLayout";
+}
+
+@* @{
+    string message = "Bienvenue sur la page Index de Home!";
+    bool test = false;
+    var strings = new List<string>()
+    {
+        "chaine1",
+        "chaine2",
+        "chaine3",
+    };
+}*@
+
+@* <div class="text-center">
+    <h1 class="display-4">Bienvenue sur mon application !!!</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+@*
+<p>
+    Bonjour !<br />
+    @message<br />
+    @test
+</p>
+
+@message
+
+@if (test)
+{
+    <div>test est vrai</div>
+} 
+else
+{
+    <div>test est faux</div>
+}
+
+@foreach(var str in strings)
+{
+    <h5>@str</h5>
+}
+
+
+<!-- un commentaire html, il est visible dans le code source côté client -->
+@* un commentaire cshtml/Razor, il n'est visible que dans ce fichier cshtml *@
+
+
+
+@* /Home/Index *@
+
+@*Html Helpers*@
+@* @Html.ActionLink("Cliquez ici !!", "Privacy") *@
+
+@*Tag Helpers*@
+@* <a asp-action="Privacy" class="btn btn-primary">Cliquez ici !!</a> *@
+
+
+<br />
+
+@* /Contact/Index *@
+@*Html Helpers*@
+@* @Html.ActionLink("Lien vers Contact", "Index", "Contact") *@
+
+
+@*Tag Helpers*@
+@* <a asp-action="Index" asp-controller="Contact" class="btn btn-primary">Lien vers Contact</a>  *@
+
+
+@* @foreach(string str in (List<string>)ViewData["MaListe"]) *@
+@* @foreach(string str in (List<string>)ViewBag.MaListe) *@
+@foreach(string str in Model)
+{
+    <div>
+        @str
+    </div>
+}
+
+@* <br />
+
+<div>
+    <p>
+        Id : @Model.Id
+    </p>
+    <p>
+        Nom : @Model.Name
+    </p>
+    <p>
+        Age : @Model.Age
+    </p>
+</div> *@
