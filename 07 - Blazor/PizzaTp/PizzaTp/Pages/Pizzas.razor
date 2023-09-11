@@ -1,0 +1,142 @@
+﻿@page "/pizzas"
+
+@using System.Collections.Generic
+@using PizzaTp
+@using PizzaTp.Services;
+@inject IPizzaService pizzaService
+
+
+<h1>Pizzas</h1>
+<button class="btn btn-primary col-md-12 mb-12" @onclick="AfficherFormulaireAjout">Ajouter une pizza</button>
+
+
+
+<div class="container mt-4">
+    <div class="row">
+        @foreach (var pizza in pizzas)
+        {
+            <div class="col-md-12 mb-4">
+                <div class="card">
+                    <img src="@pizza.ImageUrl" class="card-img-top" alt="Image de pizza">
+                    <div class="card-body">
+                        <h5 class="card-title">@pizza.Titre</h5>
+                        <p class="card-text">@pizza.Description</p>
+                        <p class="card-text">Prix: @pizza.Prix</p>
+                        <div class="btn-group" role="group">
+                            <button class="btn btn-success" @onclick="() => AjouterAuPanier(pizza)">Ajouter au panier</button>
+                            <button class="btn btn-primary" @onclick="() => ModifierPizza(pizza)">Modifier</button>
+                            <button class="btn btn-danger" @onclick="() => SupprimerPizza(pizza)">Supprimer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+<h2>Panier d'achat</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Pizza</th>
+            <th>Quantité</th>
+            <th>Prix unitaire</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in panier)
+        {
+            <tr>
+                <td>@item.Key.Titre</td>
+                <td>@item.Value</td>
+                <td>@item.Key.Prix</td>
+                <td>@(item.Key.Prix * item.Value)</td>
+            </tr>
+        }
+        <button class="btn btn-danger mt-4" @onclick="ViderPanier">Vider le panier</button>
+    </tbody>
+</table>
+
+
+@code {
+    private List<Pizza> pizzas;
+    private Pizza selectedPizza;
+    private PizzaFakeDbService pizzaDb = new PizzaFakeDbService();
+    private Dictionary<Pizza, int> panier = new Dictionary<Pizza, int>();
+    private bool afficherFormulaire = false;
+    private Pizza pizzaEnModification = null;
+
+    protected override void OnInitialized()
+    {
+        pizzas = pizzaDb.GetPizzas();
+    }
+
+  
+
+    private void AjouterAuPanier(Pizza pizza)
+    {
+        if (panier.ContainsKey(pizza))
+        {
+            panier[pizza]++;
+        }
+        else
+        {
+            panier[pizza] = 1;
+        }
+    }
+
+    private void ModifierPizza(Pizza pizza)
+    {
+        selectedPizza = pizza; 
+    }
+
+    private void SupprimerPizza(Pizza pizza)
+    {
+        pizzaDb.Delete(pizza.Id); 
+        pizzas.Remove(pizza); 
+    }
+
+    private void ViderPanier()
+    {
+        panier.Clear();
+        
+    }
+
+    private void AfficherFormulaireAjout()
+    {
+        afficherFormulaire = true;
+        pizzaEnModification = null;
+    }
+
+    private void AfficherFormulaireModification(Pizza pizza)
+    {
+        afficherFormulaire = true;
+        pizzaEnModification = pizza;
+    }
+
+    private void SoumettreFormulaire()
+    {
+        if (pizzaEnModification == null)
+        {
+            // Ajouter une nouvelle pizza à la base de données fictive
+            pizzaDb.Post(pizzaEnModification);
+            pizzas.Add(pizzaEnModification);
+        }
+        else
+        {
+            // Modifier la pizza existante dans la base de données fictive
+            pizzaDb.Put(pizzaEnModification);
+        }
+
+        afficherFormulaire = false;
+    }
+
+    private void AnnulerFormulaire()
+    {
+        afficherFormulaire = false;
+        pizzaEnModification = null;
+    }
+}

@@ -1,0 +1,41 @@
+﻿@*@using PizzaTp.Services;
+@code {
+    private List<Pizza> pizzas;
+    private Pizza selectedPizza;
+    private PizzaFakeDbService pizzaDb = new PizzaFakeDbService();
+
+    protected override void OnInitialized()
+    {
+        //pizzas = pizzaDb.Get();
+    }
+
+    private void AjouterPizza()
+    {
+        // Créez une nouvelle pizza et ajoutez-la à la base de données fictive
+        var nouvellePizza = new Pizza { ImageUrl = "pizza3.jpg", Titre = "Nouvelle Pizza", Description = "Description de la nouvelle pizza", Prix = 14.99m };
+        pizzaDb.Post(nouvellePizza);
+        pizzas.Add(nouvellePizza);
+    }
+
+    private void AjouterAuPanier(Pizza pizza)
+    {
+        pizzaDb.AjouterAuPanier(pizza); // Implémentez cette logique dans PizzaFakeDb
+    }
+
+    private void ModifierPizza(Pizza pizza)
+    {
+        selectedPizza = pizza; // Permet de modifier la pizza sélectionnée
+                               // Implémentez la logique de modification si nécessaire
+    }
+
+    private void SupprimerPizza(Pizza pizza)
+    {
+        pizzaDb.Delete(pizza.Id); // Supprimez la pizza de la base de données fictive
+        pizzas.Remove(pizza); // Supprimez la pizza de la liste
+    }
+
+    //private void ViderPanier(Pizza pizza)
+    //{
+    //    pizzaDb.ViderPanier();
+    //}
+}*@

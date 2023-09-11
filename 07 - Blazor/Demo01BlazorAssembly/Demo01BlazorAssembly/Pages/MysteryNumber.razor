@@ -1,0 +1,73 @@
+﻿@page "/nombremystere"
+
+
+<h3>Jeu du nombre mystère</h3>
+
+<p>Trouvez le nombre mystère entre 1 et 10</p>
+
+@if (gameOver)
+{
+    <p>@message</p>
+    <button class="btn btn-primary" @onclick="StartNewGame">Recommencer</button>
+}
+else
+{
+    <input type="number" @bind="inputValue" />
+    <button class="btn btn-primary" @onclick="CheckGuess">Devinez</button>
+    <p>Il vous reste @remainTries ♥</p>
+
+    <p>@message</p>
+}
+
+@code {
+    private int? inputValue;
+    private int secretNumber;
+    private int remainTries = 5;
+    private string message = "";
+    private bool gameOver = false;
+
+    private Random random = new Random();
+
+    protected override void OnInitialized()
+    {
+        StartNewGame();
+    }
+
+    public void StartNewGame()
+    {
+        inputValue = 0;
+        secretNumber = random.Next(1,10);
+        remainTries = 5;
+        message = "";
+        gameOver = false;
+    }
+
+    public void CheckGuess()
+    {
+        if (inputValue == secretNumber)
+        {
+            message = "Vous avez trouver le numéro mystère";
+            gameOver = true;
+        }
+        else
+        {
+            remainTries--;
+            if (remainTries == 0)
+            {
+                message = "Vous avez perdu le numéro mystère était " + remainTries;
+                gameOver = true;
+            }
+            else if (inputValue > secretNumber)
+            {
+                message = "Le numéro est plus petit essayez encore";
+            }
+            else
+            {
+                message = "Le numéro est plus grand essayez encore";
+            }
+        }
+    }
+
+
+
+}
